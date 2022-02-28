@@ -26,8 +26,8 @@ export default function Contact() {
 
   return (
     <section id="#contact" className="relative">
-      <div className="container mx-auto px-5 py-10 flex sm:flex-nowrap flex-wrap">
-        <div className="lg:w-2/3 md:1/2 bg-gray-900 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-start justify-start relative">
+      <div className="px-20 py-20 flex sm:flex-nowrap flex-wrap bg-gray-100">
+        <div className="lg:w-2/3 md:1/2 bg-gray-100 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-start justify-start relative">
           <div className="bg-gray-900 relative flex flex-wrap py-6 rounded shadow-md">
             <div className="lg:w-1/2 px-6">
               <h2 className="title-font font-semibold text-white tracking-widest test-xs">
@@ -56,10 +56,9 @@ export default function Contact() {
           name="contact"
           className="lg:w-1/3 md:w-1/2 flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0"
         >
-          <h2 className="text-white sm:text-4xl text-3xl mb-1 font-medium title-font">
-            Hire Me
+          <h2 className="text-gray-800 sm:text-4xl text-3xl mb-1 font-medium title-font">
+            Get in touch!
           </h2>
-          <p className="leading-relaxed">To be decided!</p>
           <div className="relative mb-4">
             <label htmlFor="name" className="leading-7 text-sm text-gray-400">
               Name
