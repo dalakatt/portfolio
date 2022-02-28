@@ -1,5 +1,5 @@
 {
-  "homepage": "https://ramyaparimi.github.io/portfolio/",
+  "homepage": "https://ramyaparimi.github.io/portfolio",
   "name": "ramyaparimi",
   "version": "0.1.0",
   "private": true,
@@ -8,7 +8,8 @@
     "@heroicons/react": "^1.0.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "react-scripts": "^1.1.5"
+    "react-scripts": "^1.1.5",
+    "yarn": "^1.22.17"
   },
   "scripts": {
     "start": "craco start",
